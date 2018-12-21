@@ -17,6 +17,8 @@ class FancyInput extends React.Component {
 }
 ```
 
+Check out the [Code Sandbox Demo](https://codesandbox.io/s/1rzlv358p7)!
+
 ## Usage
 
 ```bash
