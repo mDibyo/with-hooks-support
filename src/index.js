@@ -1,7 +1,11 @@
 function withHook(useHook) {
   function WithHook({ children }) {
     const returnValue = useHook();
-    return children(returnValue);
+    if (typeof children === 'function') {
+      return children(returnValue);
+    }
+
+    return children;
   }
 
   return WithHook;
