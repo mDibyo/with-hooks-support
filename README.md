@@ -44,8 +44,8 @@ function FunctionalComponent() {
   const [width, setWidth] = useState(window.innerWidth);
   const handleWindowResize = () => setWidth(window.innerWidth);
   useEffect(() => {
-    window.addEventListener("resize", handleWindowResize);
-    return () => window.removeEventListener("resize", handleWindowResize);
+    window.addEventListener('resize', handleWindowResize);
+    return () => window.removeEventListener('resize', handleWindowResize);
   });
 
   return <div>The window width is {width}</div>;
@@ -60,8 +60,8 @@ class ClassComponent extends React.PureComponent {
       const [width, setWidth] = useState(window.innerWidth);
       const handleWindowResize = () => setWidth(window.innerWidth);
       useEffect(() => {
-        window.addEventListener("resize", handleWindowResize);
-        return () => window.removeEventListener("resize", handleWindowResize);
+        window.addEventListener('resize', handleWindowResize);
+        return () => window.removeEventListener('resize', handleWindowResize);
       });
 
       return width;
@@ -80,8 +80,8 @@ function useWindowWidth() {
   const [width, setWidth] = useState(window.innerWidth);
   const handleWindowResize = () => setWidth(window.innerWidth);
   useEffect(() => {
-    window.addEventListener("resize", handleWindowResize);
-    return () => window.removeEventListener("resize", handleWindowResize);
+    window.addEventListener('resize', handleWindowResize);
+    return () => window.removeEventListener('resize', handleWindowResize);
   });
 
   return width;
