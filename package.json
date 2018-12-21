@@ -1,6 +1,6 @@
 {
   "name": "with-hook",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Higher-order component for using hooks in class components",
   "main": "dist/index.js",
   "module": "src/index.js",
