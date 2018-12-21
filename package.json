@@ -1,6 +1,6 @@
 {
   "name": "with-hook",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Higher-order component for using hooks in class components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
