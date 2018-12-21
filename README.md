@@ -108,4 +108,26 @@ class ClassComponent extends React.PureComponent {
   }
 }
 ```
+
+### Special case: Hooks that don't return a value
+
+Now, suppose you don't care about the return value for a hook.
+The child to the hook component can be a normal component instead of a render function.
+```jsx
+class AwesomeTextarea extends React.Component {
+  constructor(props) {
+    super(props);
+    this.textareaRef = React.createRef();
+  }
+
+  render() {
+    const WithAutosizing = withHook(() => useAutosizingTextarea(this.textareaRef));
+    return (
+      <WithAutosizing>
+        <textarea ref={this.textareaRef} />
+      <WithAutosizing>
+    );
+  }
+}
+```
 Awesome!
