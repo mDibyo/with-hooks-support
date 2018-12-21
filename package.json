@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Higher-order component for using hooks in class components",
   "main": "dist/index.js",
-  "module": "src/index.js",
+  "module": "dist/index.esm.js",
   "author": "Dibyo Majumdar<dibyo.majumdar@gmail.com>",
   "repository": {
     "type": "git",
