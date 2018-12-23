@@ -1,6 +1,7 @@
 # withHooksSupport
 
-Higher-order component for adding hooks support to class components.
+Higher-order component for adding hooks support to class components. Check out the
+[Code Sandbox Demo](https://codesandbox.io/s/rj85ql72nq).
 
 ```jsx
 class FancyInput extends React.Component {
