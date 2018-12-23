@@ -3,6 +3,8 @@
 ### DEPRECATED: The with-hook package is deprecated.
 Consider using the [with-hooks-support](https://www.npmjs.com/package/with-hooks-support) package instead, which has a cleaner and more intuitive API for allowing hooks inside class components.
 
+------
+
 Unlock React Hooks inside class components.
 
 ```jsx
