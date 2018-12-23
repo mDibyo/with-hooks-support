@@ -1,14 +1,18 @@
-function withHook(useHook) {
-  function WithHook({ children }) {
-    const returnValue = useHook();
-    if (typeof children === 'function') {
-      return children(returnValue);
-    }
+import React from 'react';
 
-    return children;
+function withHooksSupport(Component) {
+  function Wrapper(renderFn) {
+    return renderFn;
   }
 
-  return WithHook;
+  class ComponentWithHookSupport extends Component {
+    render() {
+      const FunctionWrapped = Wrapper(super.render.bind(this));
+      return <FunctionWrapped />;
+    }
+  }
+
+  return ComponentWithHookSupport;
 }
 
-export default withHook;
+export default withHooksSupport;
