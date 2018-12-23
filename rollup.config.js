@@ -1,3 +1,4 @@
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import babel from 'rollup-plugin-babel';
 
 import pkg from './package.json';
@@ -15,6 +16,7 @@ export default {
     },
   ],
   plugins: [
+    peerDepsExternal(),
     babel({
       exclude: 'node_modules/**'
     }),
