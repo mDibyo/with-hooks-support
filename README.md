@@ -15,8 +15,6 @@ class FancyInput extends React.Component {
 export default withHooksSupport(FancyInput);
 ```
 
-Check out the [Code Sandbox Demo](https://codesandbox.io/s/1rzlv358p7)!
-
 ## Usage
 
 ```bash
