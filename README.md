@@ -1,5 +1,7 @@
 # withHooksSupport
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mDibyo/with-hooks-support.svg)](https://greenkeeper.io/)
+
 Higher-order component for adding hooks support to class components. Check out the
 [Code Sandbox Demo](https://codesandbox.io/s/rj85ql72nq).
 
