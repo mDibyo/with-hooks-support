@@ -1,5 +1,9 @@
 # withHooksSupport
 
+[![dependencies](https://img.shields.io/david/mDibyo/with-hooks-support.svg)](https://david-dm.org/mDibyo/with-hooks-support)
+[![min](https://img.shields.io/bundlephobia/min/with-hooks-support.svg)](https://www.npmjs.com/package/with-hooks-support)
+[![minzip](https://img.shields.io/bundlephobia/minzip/with-hooks-support.svg)](https://www.npmjs.com/package/with-hooks-support)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Greenkeeper badge](https://badges.greenkeeper.io/mDibyo/with-hooks-support.svg)](https://greenkeeper.io/)
 
 Higher-order component for adding hooks support to class components. Check out the
