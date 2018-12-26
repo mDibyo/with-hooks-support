@@ -7,14 +7,10 @@ function withHooksSupport(Component) {
     `${Component.name} must inherit from React.Component.`
   );
 
-  function Wrapper(renderFn) {
-    return renderFn;
-  }
-
   class ComponentWithHookSupport extends Component {
     render() {
-      const FunctionWrapped = Wrapper(super.render.bind(this));
-      return <FunctionWrapped />;
+      const RenderFn = super.render.bind(this);
+      return <RenderFn />;
     }
   }
 
