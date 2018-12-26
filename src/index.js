@@ -8,9 +8,14 @@ function withHooksSupport(Component) {
   );
 
   class ComponentWithHookSupport extends Component {
+    constructor(props) {
+      super(props);
+
+      this.RenderFn = super.render.bind(this);
+    }
+
     render() {
-      const RenderFn = super.render.bind(this);
-      return <RenderFn />;
+      return <this.RenderFn />;
     }
   }
 
