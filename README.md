@@ -40,7 +40,7 @@ npm install react@^16.7.0-alpha.1
 
 ## Introduction
 
-[React hooks](https://reactjs.org/docs/hooks-intro.html) (introduced in `react@17.0.0-alpha`) lets you use
+[React hooks](https://reactjs.org/docs/hooks-intro.html) (introduced in `react@16.7.0-alpha.1`) lets you use
 state and other React features without writing a class ie. in functional components. The result is cleaner,
 more readable code where the code for a single feature is colocated instead of being spread over several
 life-cycle methods.
