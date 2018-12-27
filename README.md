@@ -33,6 +33,11 @@ Then import
 import withHooksSupport from 'with-hooks-support';
 ```
 
+NOTE: The React Hooks feature is currently only available in certain alpha versions of React.
+```bash
+npm install react@^16.7.0-alpha.1
+```
+
 ## Introduction
 
 [React hooks](https://reactjs.org/docs/hooks-intro.html) (introduced in `react@17.0.0-alpha`) lets you use
