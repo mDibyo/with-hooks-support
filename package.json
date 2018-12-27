@@ -1,6 +1,6 @@
 {
   "name": "with-hooks-support",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Higher-order component for adding hooks support to class components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
