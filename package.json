@@ -20,7 +20,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
