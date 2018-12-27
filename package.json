@@ -33,7 +33,7 @@
     "rollup-plugin-babel": "^4.1.0"
   },
   "peerDependencies": {
-    "react": "^16.7.0-alpha.0"
+    "react": "^16.7.0-alpha.1"
   },
   "dependencies": {
     "tiny-invariant": "^1.0.3"
