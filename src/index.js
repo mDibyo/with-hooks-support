@@ -9,7 +9,7 @@ function withHooksSupport(Component) {
     `${componentName} must inherit from React.Component.`
   );
 
-  return class ComponentWithHookSupport extends Component {
+  return class extends Component {
     static displayName = `withHooksSupport(${componentName})`;
 
     constructor(props) {
