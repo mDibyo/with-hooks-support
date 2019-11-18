@@ -626,7 +626,7 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@types/estree@0.0.39":
+"@types/estree@*":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
@@ -636,10 +636,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.4.tgz#ceb0048a546db453f6248f2d1d95e937a6f00a14"
   integrity sha512-Zl8dGvAcEmadgs1tmSPcvwzO1YRsz38bVJQvH1RvRqSR9/5n61Q1ktcDL0ht3FXWR+ZpVmXVwN1LuH4Ax23NsA==
 
-acorn@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.0.tgz#b0a3be31752c97a0f7013c5f4903b71a05db6818"
-  integrity sha512-MW/FjM+IvU9CgBzjO3UIPCE2pyEwUsoFl+VGdczOPEdxfGFjuKny/gN54mOuX7Qxmb9Rg9MCn2oKiSUeW+pjrw==
+acorn@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
+  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -1226,14 +1226,14 @@ rollup-pluginutils@^2.3.0:
     estree-walker "^0.5.2"
     micromatch "^2.3.11"
 
-rollup@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.2.1.tgz#996a8c63920ab056b39507d93195222e59d2807f"
-  integrity sha512-rFf7m2MHwjSYjSCFdA7ckGluMcQRcC3dKn6uAWYrk/6wnUrdQhJJruumkk5IV/3KMdmuc9qORmTu1VPBa2Ii8w==
+rollup@^1.27.1:
+  version "1.27.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.27.1.tgz#3f09a81be7f9869e18c42a852ec1a50ecc47561d"
+  integrity sha512-tRJcEYjJalj/wFiqM7GmynLeaKANS4CRPCYB8D7ylrl7Mrsmpgo6xuXE2v9K9EpX0kwFztAIwVltycA+Wr9b7Q==
   dependencies:
-    "@types/estree" "0.0.39"
+    "@types/estree" "*"
     "@types/node" "*"
-    acorn "^6.1.0"
+    acorn "^7.1.0"
 
 safe-buffer@~5.1.1:
   version "5.1.2"
